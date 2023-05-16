@@ -1,0 +1,30 @@
+{
+  "name": "generic-zustand-store-hook-factory",
+  "version": "1.0.0",
+  "description": "A simple library to wrap a Zustand store in a React Hook with a simple getter and setter, complete with safe typing",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EzeKoren/generic-zustand-store-hook-factory.git"
+  },
+  "author": "EzeKoren",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/EzeKoren/generic-zustand-store-hook-factory/issues"
+  },
+  "homepage": "https://github.com/EzeKoren/generic-zustand-store-hook-factory#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "tsup": "^6.7.0",
+    "zustand": "^4.3.8"
+  }
+}
