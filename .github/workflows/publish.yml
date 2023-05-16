@@ -1,10 +1,10 @@
-name: Build
+name: Publish
 on:
   push:
     branches:
       - "master"
 
-concurrency": ${{ github.workflow }}-${{ github.ref }}
+concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   build:
